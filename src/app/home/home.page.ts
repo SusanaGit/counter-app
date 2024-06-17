@@ -10,6 +10,9 @@ export class HomePage {
   public n: number;
   public showNumber: string;
 
-  constructor() {}
+  constructor() {
+    this.n = 0;
+    this.showNumber = '00';
+  }
 
 }
