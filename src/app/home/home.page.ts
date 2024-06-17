@@ -15,4 +15,11 @@ export class HomePage {
     this.showNumber = '00';
   }
 
+  up() {
+    this.n = this.n+1;
+  }
+
+  down() {
+    this.n = this.n-1;
+  }
 }
