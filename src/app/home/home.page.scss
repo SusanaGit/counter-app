@@ -8,3 +8,15 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (orientation: portrait) {
+  .center-content {
+    font-size: 16em;
+  }
+}
+
+@media (orientation: landscape) {
+  .center-content {
+    font-size: 9em;
+  }
+}
