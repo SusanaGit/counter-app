@@ -17,9 +17,19 @@ export class HomePage {
 
   up() {
     this.n = this.n+1;
+    if (this.n < 10) {
+      this.showNumber = '0' + this.n;
+    } else {
+      this.showNumber = '' + this.n;
+    }
   }
 
   down() {
     this.n = this.n-1;
+    if (this.n < 10) {
+      this.showNumber = '0' + this.n;
+    } else {
+      this.showNumber = '' + this.n;
+    }
   }
 }
