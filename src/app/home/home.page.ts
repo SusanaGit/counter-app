@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  public n: number;
+  public showNumber: string;
+
   constructor() {}
 
 }
