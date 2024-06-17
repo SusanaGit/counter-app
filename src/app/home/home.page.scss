@@ -1,3 +1,10 @@
 .no-scroll {
   --overflow: hidden;
 }
+
+.center-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
